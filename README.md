@@ -1,7 +1,7 @@
-# ToyRobotSimulator
+# Toy Robot Simulator
 Zone Digital Technical Test
 
-Java implementation of the Toy Robot Simulator technical test for Zone Digital
+Java Implementation of the Toy Robot Simulator Technical test for Zone Digital https://zone.github.io/backend/toy-robot
 
 The implemenation has a REPL for interacting with the robot on the 5x5 grid, as well as support for loading a series of
 commands from a file.
@@ -24,3 +24,5 @@ Test coverage could be improved.
 
 The modular nature of the code base means it should be easy to add a UI to represent the state of the play area, or expose the 
 commands via a REST service to enable the game to be played by any device capable of running a rest client remotely over the internet.
+
+Entered commands could be recorded so that a game can be replayed if needed
